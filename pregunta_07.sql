@@ -44,6 +44,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT * FROM tbl1
-WHERE K0<>"A" AND K0<>"B" 
-AND WHERE c13<>900 AND c13<>200 
+WHERE K0 NOT IN ('A','B') AND WHERE c13 NOT IN (200,900)
 ORDER BY c14;

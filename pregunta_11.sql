@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT * FROM tbl1 WHERE strftime('%Y', c14)=2018;

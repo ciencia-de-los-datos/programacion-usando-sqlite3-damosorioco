@@ -9,6 +9,7 @@ import sys
 import pandas as pd
 
 
+
 def load_data():
     conn = sqlite3.connect(":memory:")
     cur = conn.cursor()
